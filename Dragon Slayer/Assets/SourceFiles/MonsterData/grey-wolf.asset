@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c443365ef5cd7640a086e305d059e14, type: 3}
+  m_Name: grey-wolf
+  m_EditorClassIdentifier: Assembly-CSharp::MonsterData
+  monsterName: Grey Wolf
+  idleSprite: {fileID: 21300000, guid: a6b9dc122610fcc419d23037d9242ce0, type: 3}
+  attackSprite: {fileID: 21300000, guid: 068fe1fe21185c54a9fc7b239c67aa00, type: 3}
+  damageSprite: {fileID: 21300000, guid: 308bace6438f34948af78198fd2b3357, type: 3}
+  maxHealth: 50
+  attackDamage: 8
+  description: 
