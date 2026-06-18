@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 91c839337ae9a7e438717a6be7186fa5
+guid: 8f8eed982f31d3840974488dc12de6fc
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2579797994917022350
-    second: ui-render-20260612-153609_0
+      213: 1158083663603451586
+    second: parchment-hud-background-light-cross_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ui-render-20260612-153609_0
+      name: parchment-hud-background-light-cross_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1920
-        height: 1080
+        width: 1024
+        height: 1024
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e8a4b47ab984dc320800000000000000
-      internalID: 2579797994917022350
+      spriteID: 2c6444dc4f6521010800000000000000
+      internalID: 1158083663603451586
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      ui-render-20260612-153609_0: 2579797994917022350
+      parchment-hud-background-light-cross_0: 1158083663603451586
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

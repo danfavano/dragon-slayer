@@ -2,39 +2,74 @@
     flex-grow: 1;
     justify-content: space-between;
     padding: 16px 22px 16px 22px;
-    background-image: url("project://database/Assets/SourceFiles/Textures/Backgrounds/dark-forest-background-ten.png");
+    background-image: url("project://database/Assets/SourceFiles/Textures/Backgrounds/dark-forest-3.png");
     -unity-background-scale-mode: stretch-to-fill;
     background-color: rgba(6, 8, 18, 1);
 }
 
 .panel-frame {
-    border-top-width: 2px;
-    border-right-width: 2px;
-    border-bottom-width: 2px;
-    border-left-width: 2px;
-    border-top-color: rgba(120, 30, 38, 0.9);
-    border-right-color: rgba(120, 30, 38, 0.9);
-    border-bottom-color: rgba(120, 30, 38, 0.9);
-    border-left-color: rgba(120, 30, 38, 0.9);
-    background-color: rgba(8, 12, 28, 0.78);
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-    border-bottom-left-radius: 10px;
+    background-color: rgba(0, 0, 0, 1);
+    background-image: url("project://database/Assets/SourceFiles/Textures/UI/steel-border.png");
+    -unity-slice-left: 30;
+    -unity-slice-top: 30;
+    -unity-slice-right: 30;
+    -unity-slice-bottom: 30;
+    -unity-slice-scale: 1.2;
 }
 
 .top-frame {
-    height: 68px;
+    width: 600px;
+    height: 230px;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
-    padding-left: 14px;
-    padding-right: 14px;
+    justify-content: center;
+    padding-left: 24px;
+    padding-right: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-image: url("project://database/Assets/SourceFiles/Textures/UI/initiative-bar-solid-green.png");
+    background-color: rgba(0, 0, 0, 0);
+
 }
 
 .enemy-marker-group {
     flex-direction: row;
     gap: 8px;
+}
+
+.initiative-tracker {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    margin-left: -20px;
+    margin-top: -75px;
+}
+
+.initiative-slot {
+    width: 40px;
+    height: 40px;
+    background-image: url("project://database/Assets/SourceFiles/Textures/UI/initiative-bar-cell.png");
+    background-color: rgba(0, 0, 0, 0);
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    margin-right: 5px;
+    margin-left: 5px;
+    align-items: center;
+    justify-content: center;
+    -unity-background-scale-mode: scale-to-fit;
+}
+
+.initiative-slot-label {
+    font-size: 28px;
+    -unity-font-style: bold;
+    color: rgba(200, 180, 150, 1);
+    -unity-text-align: middle-center;
 }
 
 .align-right {
@@ -45,7 +80,7 @@
     color: rgba(173, 198, 255, 0.9);
     font-size: 13px;
     -unity-font-style: bold;
-    letter-spacing: 1.2px;
+    letter-spacing: 10px;
     background-color: rgba(16, 26, 60, 0.9);
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -55,13 +90,21 @@
     padding-right: 10px;
     padding-top: 3px;
     padding-bottom: 3px;
+    -unity-font-definition: url("project://database/Assets/UI/Fonts/Almendra-Bold.ttf");
+    -unity-text-outline-width: 0.2px;
+    -unity-text-outline-color: rgba(0, 0, 0, 1);
+    -unity-paragraph-spacing: 5px;
 }
 
 .battle-title {
     color: rgba(243, 78, 74, 1);
     font-size: 22px;
     -unity-font-style: bold;
-    letter-spacing: 3px;
+    letter-spacing: 10px;
+    -unity-font-definition: url("project://database/Assets/UI/Fonts/Almendra-Bold.ttf");
+    -unity-text-outline-width: 0.2px;
+    -unity-text-outline-color: rgba(0, 0, 0, 1);
+    -unity-paragraph-spacing: 5px;
 }
 
 .enemy-strip {
@@ -130,7 +173,11 @@
     color: rgba(181, 205, 255, 1);
     -unity-font-style: bold;
     font-size: 14px;
-    letter-spacing: 1.4px;
+    letter-spacing: 10px;
+    -unity-font-definition: url("project://database/Assets/UI/Fonts/Almendra-Bold.ttf");
+    -unity-text-outline-width: 0.2px;
+    -unity-text-outline-color: rgba(0, 0, 0, 1);
+    -unity-paragraph-spacing: 5px;
 }
 
 .hp-track {
@@ -160,6 +207,10 @@
     margin-top: 5px;
     color: rgba(235, 227, 227, 0.9);
     font-size: 12px;
+    -unity-font-definition: url("project://database/Assets/UI/Fonts/Almendra-Regular.ttf");
+    -unity-text-outline-width: 0.2px;
+    -unity-text-outline-color: rgba(0, 0, 0, 1);
+    -unity-paragraph-spacing: 5px;
 }
 
 .bottom-hud {
@@ -167,7 +218,11 @@
     flex-direction: row;
     gap: 14px;
     align-items: stretch;
-    padding: 8px 12px;
+    padding: 16px 24px;
+    margin-left: -22px;
+    margin-right: -22px;
+    margin-bottom: -16px;
+    -unity-slice-scale: 0.5;
 }
 
 .player-panel {
@@ -184,7 +239,11 @@
     color: rgba(241, 75, 70, 1);
     font-size: 18px;
     -unity-font-style: bold;
-    letter-spacing: 1.5px;
+    letter-spacing: 10px;
+    -unity-font-definition: url("project://database/Assets/UI/Fonts/Almendra-Bold.ttf");
+    -unity-text-outline-width: 0.2px;
+    -unity-text-outline-color: rgba(0, 0, 0, 1);
+    -unity-paragraph-spacing: 5px;
 }
 
 .player-level {
@@ -192,6 +251,10 @@
     margin-top: 1px;
     margin-bottom: 5px;
     font-size: 12px;
+    -unity-font-definition: url("project://database/Assets/UI/Fonts/Almendra-Regular.ttf");
+    -unity-text-outline-width: 0.2px;
+    -unity-text-outline-color: rgba(0, 0, 0, 1);
+    -unity-paragraph-spacing: 5px;
 }
 
 .resource-row {
@@ -206,6 +269,10 @@
     color: rgba(204, 212, 240, 1);
     -unity-font-style: bold;
     font-size: 12px;
+    -unity-font-definition: url("project://database/Assets/UI/Fonts/Almendra-Bold.ttf");
+    -unity-text-outline-width: 0.2px;
+    -unity-text-outline-color: rgba(0, 0, 0, 1);
+    -unity-paragraph-spacing: 5px;
 }
 
 .resource-track {
@@ -235,6 +302,10 @@
     color: rgba(224, 224, 229, 0.95);
     font-size: 11px;
     -unity-text-align: middle-right;
+    -unity-font-definition: url("project://database/Assets/UI/Fonts/Almendra-Regular.ttf");
+    -unity-text-outline-width: 0.2px;
+    -unity-text-outline-color: rgba(0, 0, 0, 1);
+    -unity-paragraph-spacing: 5px;
 }
 
 .action-bar {
@@ -264,8 +335,12 @@
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
     -unity-font-style: bold;
-    letter-spacing: 1px;
+    letter-spacing: 10px;
     font-size: 11px;
+    -unity-font-definition: url("project://database/Assets/UI/Fonts/Almendra-Bold.ttf");
+    -unity-text-outline-width: 0.2px;
+    -unity-text-outline-color: rgba(0, 0, 0, 1);
+    -unity-paragraph-spacing: 5px;
 }
 
 .skill-button.primary {

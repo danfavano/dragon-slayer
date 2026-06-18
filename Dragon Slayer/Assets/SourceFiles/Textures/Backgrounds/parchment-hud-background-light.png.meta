@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 5e7da9304cb774f4c896cf5028478646
+guid: f655f2302bb1100458c654ca3d524f7a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 371314485225261679
-    second: enemies-enlarged_0
+      213: -7045148017820366884
+    second: parchment-hud-background-light_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: enemies-enlarged_0
+      name: parchment-hud-background-light_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1920
-        height: 1080
+        width: 1024
+        height: 1024
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f6a0fc79e8c272500800000000000000
-      internalID: 371314485225261679
+      spriteID: cd705cf543b9a3e90800000000000000
+      internalID: -7045148017820366884
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      enemies-enlarged_0: 371314485225261679
+      parchment-hud-background-light_0: -7045148017820366884
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

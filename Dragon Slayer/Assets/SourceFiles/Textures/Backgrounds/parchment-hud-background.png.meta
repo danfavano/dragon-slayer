@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 9f15549c1a64e3d45a791e068ca96975
+guid: eb7741447a33e2e41aa474e53adba18f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -64040702114806240
-    second: screenshot-20260612-152702_0
+      213: -2922726094414308780
+    second: parchment-hud-background_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: screenshot-20260612-152702_0
+      name: parchment-hud-background_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1920
-        height: 1080
+        width: 1024
+        height: 1024
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 026c74b125b7c1ff0800000000000000
-      internalID: -64040702114806240
+      spriteID: 45a9ba63a146077d0800000000000000
+      internalID: -2922726094414308780
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      screenshot-20260612-152702_0: -64040702114806240
+      parchment-hud-background_0: -2922726094414308780
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

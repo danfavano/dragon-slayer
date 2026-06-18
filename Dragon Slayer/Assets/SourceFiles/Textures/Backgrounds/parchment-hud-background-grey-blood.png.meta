@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: aee8e7a16fb085f45af8d0564f7a7884
+guid: cba6e931d18dbc84bbfa4cf1e2f0ac91
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4942487429911427056
-    second: ui-render-20260612-152807_0
+      213: 1396396319615901983
+    second: parchment-hud-background-grey-blood_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -24,7 +24,7 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
     flipGreenChannel: 0
-  isReadable: 0
+  isReadable: 1
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
@@ -57,7 +57,7 @@ TextureImporter:
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 8
+  textureType: 0
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ui-render-20260612-152807_0
+      name: parchment-hud-background-grey-blood_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1920
-        height: 1080
+        width: 1024
+        height: 1024
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0f734be812e379440800000000000000
-      internalID: 4942487429911427056
+      spriteID: f116e54ed0ff06310800000000000000
+      internalID: 1396396319615901983
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      ui-render-20260612-152807_0: 4942487429911427056
+      parchment-hud-background-grey-blood_0: 1396396319615901983
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

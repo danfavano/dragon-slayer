@@ -1,97 +1,110 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" editor-extension-mode="False">
-    <ui:Style src="project://database/Assets/UI/Battle/BattleHUD.uss" />
+    <Style src="project://database/Assets/UI/Battle/BattleHUD.uss?fileID=7433441132597879392&amp;guid=8a535f6c58313024c912d0a053490a7e&amp;type=3#BattleHUD"/>
     <ui:VisualElement name="battle-root" class="battle-root">
         <ui:VisualElement name="top-frame" class="top-frame panel-frame">
-            <ui:VisualElement class="enemy-marker-group">
-                <ui:Label text="GREY WOLF" class="marker-label" />
-                <ui:Label text="SWORD AND BOARD" class="marker-label" />
-            </ui:VisualElement>
-            <ui:Label text="BATTLE" name="battle-title" class="battle-title" />
-            <ui:VisualElement class="enemy-marker-group align-right">
-                <ui:Label text="GREY WOLF" class="marker-label" />
+            <ui:VisualElement name="initiative-tracker" class="initiative-tracker">
+                <ui:VisualElement name="initiative-slot-0" class="initiative-slot">
+                    <ui:Label text="G" class="initiative-slot-label"/>
+                </ui:VisualElement>
+                <ui:VisualElement name="initiative-slot-1" class="initiative-slot">
+                    <ui:Label text="S" class="initiative-slot-label"/>
+                </ui:VisualElement>
+                <ui:VisualElement name="initiative-slot-2" class="initiative-slot">
+                    <ui:Label text="B" class="initiative-slot-label"/>
+                </ui:VisualElement>
+                <ui:VisualElement name="initiative-slot-3" class="initiative-slot">
+                    <ui:Label text="G" class="initiative-slot-label"/>
+                </ui:VisualElement>
+                <ui:VisualElement name="initiative-slot-4" class="initiative-slot">
+                    <ui:Label text="B" class="initiative-slot-label"/>
+                </ui:VisualElement>
+                <ui:VisualElement name="initiative-slot-5" class="initiative-slot">
+                    <ui:Label text="G" class="initiative-slot-label"/>
+                </ui:VisualElement>
+                <ui:VisualElement name="initiative-slot-6" class="initiative-slot">
+                    <ui:Label text="S" class="initiative-slot-label"/>
+                </ui:VisualElement>
+                <ui:VisualElement name="initiative-slot-7" class="initiative-slot">
+                    <ui:Label text="B" class="initiative-slot-label"/>
+                </ui:VisualElement>
             </ui:VisualElement>
         </ui:VisualElement>
-
         <ui:VisualElement name="enemy-strip" class="enemy-strip">
             <ui:VisualElement name="enemy-card-0" class="enemy-card">
                 <ui:VisualElement class="enemy-sprite-wrapper">
-                    <ui:VisualElement class="enemy-shadow" />
-                    <ui:VisualElement name="enemy-sprite-0" class="enemy-sprite" />
-                    <ui:VisualElement class="crosshatch-overlay" />
-                    <ui:VisualElement class="enemy-ground-shadow" />
+                    <ui:VisualElement class="enemy-shadow"/>
+                    <ui:VisualElement name="enemy-sprite-0" class="enemy-sprite"/>
+                    <ui:VisualElement class="crosshatch-overlay"/>
+                    <ui:VisualElement class="enemy-ground-shadow"/>
                 </ui:VisualElement>
-                <ui:Label text="GREY WOLF" name="enemy-name-0" class="enemy-name" />
+                <ui:Label text="GREY WOLF" name="enemy-name-0" class="enemy-name"/>
                 <ui:VisualElement class="hp-track">
-                    <ui:VisualElement name="enemy-hp-fill-0" class="hp-fill" style="width: 100%;" />
+                    <ui:VisualElement name="enemy-hp-fill-0" class="hp-fill" style="width: 100%;"/>
                 </ui:VisualElement>
-                <ui:Label text="50 / 50" name="enemy-hp-text-0" class="enemy-hp-text" />
+                <ui:Label text="50 / 50" name="enemy-hp-text-0" class="enemy-hp-text"/>
             </ui:VisualElement>
-
             <ui:VisualElement name="enemy-card-1" class="enemy-card enemy-card-large">
                 <ui:VisualElement class="enemy-sprite-wrapper enemy-sprite-wrapper-large">
-                    <ui:VisualElement class="enemy-shadow" />
-                    <ui:VisualElement name="enemy-sprite-1" class="enemy-sprite" />
-                    <ui:VisualElement class="crosshatch-overlay" />
-                    <ui:VisualElement class="enemy-ground-shadow" />
+                    <ui:VisualElement class="enemy-shadow"/>
+                    <ui:VisualElement name="enemy-sprite-1" class="enemy-sprite"/>
+                    <ui:VisualElement class="crosshatch-overlay"/>
+                    <ui:VisualElement class="enemy-ground-shadow"/>
                 </ui:VisualElement>
-                <ui:Label text="SWORD AND BOARD" name="enemy-name-1" class="enemy-name" />
+                <ui:Label text="SWORD AND BOARD" name="enemy-name-1" class="enemy-name"/>
                 <ui:VisualElement class="hp-track">
-                    <ui:VisualElement name="enemy-hp-fill-1" class="hp-fill" style="width: 100%;" />
+                    <ui:VisualElement name="enemy-hp-fill-1" class="hp-fill" style="width: 100%;"/>
                 </ui:VisualElement>
-                <ui:Label text="70 / 70" name="enemy-hp-text-1" class="enemy-hp-text" />
+                <ui:Label text="70 / 70" name="enemy-hp-text-1" class="enemy-hp-text"/>
             </ui:VisualElement>
-
             <ui:VisualElement name="enemy-card-2" class="enemy-card">
                 <ui:VisualElement class="enemy-sprite-wrapper">
-                    <ui:VisualElement class="enemy-shadow" />
-                    <ui:VisualElement name="enemy-sprite-2" class="enemy-sprite" />
-                    <ui:VisualElement class="crosshatch-overlay" />
-                    <ui:VisualElement class="enemy-ground-shadow" />
+                    <ui:VisualElement class="enemy-shadow"/>
+                    <ui:VisualElement name="enemy-sprite-2" class="enemy-sprite"/>
+                    <ui:VisualElement class="crosshatch-overlay"/>
+                    <ui:VisualElement class="enemy-ground-shadow"/>
                 </ui:VisualElement>
-                <ui:Label text="GREY WOLF" name="enemy-name-2" class="enemy-name" />
+                <ui:Label text="GREY WOLF" name="enemy-name-2" class="enemy-name"/>
                 <ui:VisualElement class="hp-track">
-                    <ui:VisualElement name="enemy-hp-fill-2" class="hp-fill" style="width: 100%;" />
+                    <ui:VisualElement name="enemy-hp-fill-2" class="hp-fill" style="width: 100%;"/>
                 </ui:VisualElement>
-                <ui:Label text="50 / 50" name="enemy-hp-text-2" class="enemy-hp-text" />
+                <ui:Label text="50 / 50" name="enemy-hp-text-2" class="enemy-hp-text"/>
             </ui:VisualElement>
         </ui:VisualElement>
-
         <ui:VisualElement name="bottom-hud" class="bottom-hud panel-frame">
             <ui:VisualElement name="player-panel" class="player-panel">
-                <ui:Label text="BERSERKER" class="player-name" />
-                <ui:Label text="LEVEL 20" class="player-level" />
+                <ui:Label text="BERSERKER" class="player-name"/>
+                <ui:Label text="LEVEL 20" class="player-level"/>
                 <ui:VisualElement class="resource-row">
-                    <ui:Label text="HP" class="resource-label" />
+                    <ui:Label text="HP" class="resource-label"/>
                     <ui:VisualElement class="resource-track">
-                        <ui:VisualElement class="resource-fill hp-fill-74" />
+                        <ui:VisualElement class="resource-fill hp-fill-74"/>
                     </ui:VisualElement>
-                    <ui:Label text="185 / 249" class="resource-text" />
+                    <ui:Label text="185 / 249" class="resource-text"/>
                 </ui:VisualElement>
                 <ui:VisualElement class="resource-row">
-                    <ui:Label text="MP" class="resource-label" />
+                    <ui:Label text="MP" class="resource-label"/>
                     <ui:VisualElement class="resource-track">
-                        <ui:VisualElement class="resource-fill mp-fill-35" />
+                        <ui:VisualElement class="resource-fill mp-fill-35"/>
                     </ui:VisualElement>
-                    <ui:Label text="20 / 234" class="resource-text" />
+                    <ui:Label text="20 / 234" class="resource-text"/>
                 </ui:VisualElement>
                 <ui:VisualElement class="resource-row">
-                    <ui:Label text="ST" class="resource-label" />
+                    <ui:Label text="ST" class="resource-label"/>
                     <ui:VisualElement class="resource-track">
-                        <ui:VisualElement class="resource-fill st-fill-68" />
+                        <ui:VisualElement class="resource-fill st-fill-68"/>
                     </ui:VisualElement>
-                    <ui:Label text="152 / 218" class="resource-text" />
+                    <ui:Label text="152 / 218" class="resource-text"/>
                 </ui:VisualElement>
             </ui:VisualElement>
-
             <ui:VisualElement name="action-bar" class="action-bar">
-                <ui:Button text="STRIKE" class="skill-button primary" />
-                <ui:Button text="RIPPER" class="skill-button" />
-                <ui:Button text="BLOCK" class="skill-button" />
-                <ui:Button text="FOCUS" class="skill-button" />
-                <ui:Button text="BLOODLUST" class="skill-button highlight" />
-                <ui:Button text="HOWL" class="skill-button" />
-                <ui:Button text="ITEM" class="skill-button" />
-                <ui:Button text="FLEE" class="skill-button danger" />
+                <ui:Button text="STRIKE" class="skill-button primary"/>
+                <ui:Button text="RIPPER" class="skill-button"/>
+                <ui:Button text="BLOCK" class="skill-button"/>
+                <ui:Button text="FOCUS" class="skill-button"/>
+                <ui:Button text="BLOODLUST" class="skill-button highlight"/>
+                <ui:Button text="HOWL" class="skill-button"/>
+                <ui:Button text="ITEM" class="skill-button"/>
+                <ui:Button text="FLEE" class="skill-button danger"/>
             </ui:VisualElement>
         </ui:VisualElement>
     </ui:VisualElement>
