@@ -2,7 +2,7 @@
     flex-grow: 1;
     justify-content: space-between;
     padding: 16px 22px 16px 22px;
-    background-image: url("project://database/Assets/SourceFiles/Textures/Backgrounds/dark-forest-3.png");
+    background-image: url("project://database/Assets/SourceFiles/Textures/Backgrounds/background-forest-moon-realistic-upscale.png");
     -unity-background-scale-mode: stretch-to-fill;
     background-color: rgba(6, 8, 18, 1);
 }
@@ -18,6 +18,7 @@
 }
 
 .top-frame {
+    display: none;
     width: 600px;
     height: 230px;
     flex-direction: row;
@@ -136,15 +137,15 @@
     height: 380px;
     position: relative;
     margin-top: 0;
-    margin-bottom: 2px;
+    margin-bottom: -15px;
 }
 
 .enemy-sprite-wrapper-large {
-    height: 480px;
+    height: 540px;
 }
 
 .enemy-card-large {
-    width: 360px;
+    width: 420px;
 }
 
 .enemy-shadow {
@@ -170,6 +171,7 @@
 }
 
 .enemy-name {
+    display: none;
     color: rgba(181, 205, 255, 1);
     -unity-font-style: bold;
     font-size: 14px;
@@ -181,8 +183,9 @@
 }
 
 .hp-track {
+    display: none;
     height: 12px;
-    margin-top: 3px;
+    margin-top: -25px;
     border-top-left-radius: 6px;
     border-top-right-radius: 6px;
     border-bottom-right-radius: 6px;
@@ -204,6 +207,7 @@
 .hp-fill-60 { width: 60%; }
 
 .enemy-hp-text {
+    display: none;
     margin-top: 5px;
     color: rgba(235, 227, 227, 0.9);
     font-size: 12px;

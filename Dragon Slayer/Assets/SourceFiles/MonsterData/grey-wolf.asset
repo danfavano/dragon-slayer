@@ -13,9 +13,10 @@ MonoBehaviour:
   m_Name: grey-wolf
   m_EditorClassIdentifier: Assembly-CSharp::MonsterData
   monsterName: Grey Wolf
-  idleSprite: {fileID: 21300000, guid: a6b9dc122610fcc419d23037d9242ce0, type: 3}
-  attackSprite: {fileID: 21300000, guid: 068fe1fe21185c54a9fc7b239c67aa00, type: 3}
-  damageSprite: {fileID: 21300000, guid: 308bace6438f34948af78198fd2b3357, type: 3}
+  idleSprite: {fileID: 21300000, guid: ac2dd8e90ea90ec4b838c3ac7d155af2, type: 3}
+  attackSprite: {fileID: 21300000, guid: ac2dd8e90ea90ec4b838c3ac7d155af2, type: 3}
+  damageSprite: {fileID: 21300000, guid: ac2dd8e90ea90ec4b838c3ac7d155af2, type: 3}
   maxHealth: 50
-  attackDamage: 8
-  description: 
+  isLarge: 0
+  attackDamage: 6
+  description: A swift grey wolf with green-tinted eyes and a mysterious howl.

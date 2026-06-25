@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c443365ef5cd7640a086e305d059e14, type: 3}
+  m_Name: grey-wolf-2
+  m_EditorClassIdentifier: Assembly-CSharp::MonsterData
+  monsterName: Grey Wolf - Variant 2
+  idleSprite: {fileID: -4015248472184791553, guid: ac2dd8e90ea90ec4b838c3ac7d155af2, type: 3}
+  attackSprite: {fileID: -4015248472184791553, guid: ac2dd8e90ea90ec4b838c3ac7d155af2, type: 3}
+  damageSprite: {fileID: -4015248472184791553, guid: ac2dd8e90ea90ec4b838c3ac7d155af2, type: 3}
+  maxHealth: 50
+  isLarge: 0
+  attackDamage: 6
+  description: A swift grey wolf with green-tinted eyes and a mysterious howl. (Variant 2)

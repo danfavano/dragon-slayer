@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::MonsterData
   monsterName: Bandit Sword & Board
   idleSprite: {fileID: 21300000, guid: a01c509a6eb13694bb91a52c2df13b60, type: 3}
-  attackSprite: {fileID: 21300000, guid: c8ce6a66e4afbee4895b7fac3476e01f, type: 3}
-  damageSprite: {fileID: 21300000, guid: e1f9337f05ef7cb469d0f83cacaac1c2, type: 3}
+  attackSprite: {fileID: 21300000, guid: a01c509a6eb13694bb91a52c2df13b60, type: 3}
+  damageSprite: {fileID: 21300000, guid: a01c509a6eb13694bb91a52c2df13b60, type: 3}
   maxHealth: 70
   isLarge: 1
   attackDamage: 11

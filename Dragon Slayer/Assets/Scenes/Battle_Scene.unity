@@ -291,9 +291,9 @@ MonoBehaviour:
   enemyStartingHealth: 60
   exitSceneName: GetStarted_Scene
   enemies:
-  - {fileID: 11400000, guid: 92bb35658e4005a47aaa4e90f9863a23, type: 2}
+  - {fileID: 11400000, guid: c61e9c62f0da4604cbe1ed6befed2709, type: 2}
   - {fileID: 11400000, guid: 211788878a29c96438cf9afa60def6c4, type: 2}
-  - {fileID: 11400000, guid: 92bb35658e4005a47aaa4e90f9863a23, type: 2}
+  - {fileID: 11400000, guid: c61e9c62f0da4604cbe1ed6befed2709, type: 2}
 --- !u!4 &1720438926
 Transform:
   m_ObjectHideFlags: 0
